@@ -1,0 +1,168 @@
+@import "../components/bootstrap/scss/bootstrap";
+
+
+/* RESET */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+img {
+	max-width: 100%;
+}
+
+body{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;	
+	background-image: url(../img/fundo.jpg);
+	background-size: contain;
+}
+
+/* Topo */
+
+.header{	
+	height: 80px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 18px;
+	padding-left: 64px;		
+}
+
+.nav-menu{
+	padding: 0 100px;
+}
+
+.nav-profile img{
+	border-radius: 50px;
+}
+
+.nav-link:hover{
+	color: #FC5374 !important;
+}
+
+/* default */
+
+.default{
+	margin: 40px 0;
+}
+
+.headline{
+	font-size: 35px;
+	color: #FC5374;
+	font-weight: bold;
+}
+
+.headline-tohire{
+	font-size: 40px;
+	color: #FC5374;
+	font-weight: bold;
+	text-align: center;
+}
+
+.info{
+	text-align: center;
+}
+
+/* Session-1 */
+
+.video{
+	padding-left: 100px;
+	padding-bottom: 20px;  
+}
+
+/* Session-2 */
+
+.headline-task{
+	font-size: 30px;
+	color: #FC5374;
+	font-weight: bold;	
+	text-align: center;
+	padding: 30px;
+}
+
+/* Gabrielle */
+
+.default-session{
+	padding: 30px 0;
+}
+
+.profile img{
+	border-radius: 10px;
+}
+
+.profile-text{
+	background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.nav-profile{
+	font-size: 12px;
+	padding-top: 1px;
+    padding-left: 101px;
+}
+
+.nav-profile strong{
+	color: #ff043f;
+}
+
+.social{
+	color: #ff043f;
+}
+
+.actions{
+	display: flex;
+	justify-content: space-around;
+}
+
+/* btns */
+
+.btn-whatsapp{
+	background-color:#6aa84f; 
+	border-color:#6aa84f;
+	color: #fff;
+}
+
+.btn-register{
+	background-color:#fc5374; 
+	border-color:#fc5374;
+	color: #fff;
+}
+
+.btn-web{
+	background-color:#8e7cc3; 
+	border-color:#8e7cc3;
+	color: #fff;
+}
+
+.btn-whatsapp:hover,
+.btn-register:hover,
+.btn-web:hover{
+	color:#fff;
+}
+
+
+/* Socio Task */
+
+.session-2 .default{
+	background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.session-2 p{
+	text-align: justify;
+	padding-left: 65px;
+    padding-right: 73px;
+}

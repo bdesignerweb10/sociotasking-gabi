@@ -1,0 +1,30 @@
+{
+  "name": "sociotasking_gabi",
+  "description": "website Socio Tasking Gabi",
+  "main": "index.js",
+  "authors": [
+    "Bruno Gomes"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Socio",
+    "Tasking",
+    "Gabi",
+    "Redes",
+    "Sociais",
+    "Marketing"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.0"
+  }
+}
