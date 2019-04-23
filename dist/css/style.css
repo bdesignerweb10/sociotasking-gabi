@@ -7038,11 +7038,14 @@ img {
 
 body {
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
-  background-image: url(../img/fundo.jpg);
-  background-size: contain; }
+  font-family: 'Open Sans', sans-serif; }
 
-/* Topo */
+.index {
+  background-image: url(../img/fundo.jpg);
+  background-size: contain;
+  padding-bottom: 30px; }
+
+/* MENU */
 .header {
   height: 80px;
   background-color: #fff;
@@ -7050,7 +7053,8 @@ body {
   justify-content: space-between;
   align-items: center;
   font-size: 18px;
-  padding-left: 64px; }
+  padding-left: 64px;
+  border-bottom: 3px solid #FC5374; }
 
 .nav-menu {
   padding: 0 100px; }
@@ -7084,15 +7088,6 @@ body {
   padding-left: 100px;
   padding-bottom: 20px; }
 
-/* Session-2 */
-.headline-task {
-  font-size: 30px;
-  color: #FC5374;
-  font-weight: bold;
-  text-align: center;
-  padding: 30px; }
-
-/* Gabrielle */
 .default-session {
   padding: 30px 0; }
 
@@ -7119,6 +7114,23 @@ body {
   display: flex;
   justify-content: space-around; }
 
+/* Session-2 */
+.headline-task {
+  font-size: 30px;
+  color: #FC5374;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px; }
+
+.session-2 .default {
+  background-color: #F5F5F5;
+  border-radius: 10px; }
+
+.session-2 p {
+  text-align: justify;
+  padding-left: 65px;
+  padding-right: 73px; }
+
 /* btns */
 .btn-whatsapp {
   background-color: #6aa84f;
@@ -7140,12 +7152,50 @@ body {
 .btn-web:hover {
   color: #fff; }
 
-/* Socio Task */
-.session-2 .default {
-  background-color: #F5F5F5;
-  border-radius: 10px; }
+/* profile */
+.profile-page {
+  background-color: #fff !important;
+  margin: 60px 0; }
 
-.session-2 p {
+.profile-page img {
+  background-color: #F23005;
+  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77); }
+
+.headline-profile {
+  border-bottom: 1px solid #ccc;
+  height: 64px;
+  color: #707070; }
+
+.headline-profile span {
+  border-bottom: 6px solid #FC5374;
+  font-size: 46px; }
+
+/* FOOTER */
+.footer {
+  background-color: #F5F5F5;
+  padding: 40px 0;
+  border-top: 3px solid #FC5374; }
+
+.footer .col-sm-4 {
+  display: flex;
+  justify-content: flex-end; }
+
+.footer-menu {
+  list-style: none; }
+
+.footer-title {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FC5374;
+  margin-bottom: 20px; }
+
+.footer-menu p {
   text-align: justify;
-  padding-left: 65px;
-  padding-right: 73px; }
+  font-size: 13px; }
+
+.footer-menu span {
+  color: #FC5374; }

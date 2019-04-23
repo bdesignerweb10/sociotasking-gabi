@@ -33,7 +33,7 @@
 </head>
 <body>
 	<header class="header">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-light">
 		  <a class="navbar-brand" href="#"><img src="img/logo-sociotasking.png" width="235"></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -42,13 +42,13 @@
 		  <div class="collapse navbar-collapse nav-menu" id="navbarSupportedContent">
 		    <ul class="navbar-nav mr-auto">
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Ínicio <span class="sr-only">(current)</span></a>
+		        <a class="nav-link" href="index.php">Ínicio <span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link" href="#">O que é SócioTasking</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Conheça a Gabrielle</a>
+		        <a class="nav-link" href="profile.php">Conheça a Gabrielle</a>
 		      </li>	
 		      <li class="nav-item active nav-profile">
 		        <a class="nav-link" href="#">Você foi indicado por <strong>Gabrielle Viero</strong> <img src="img/profile.jpg" width="25"></a>

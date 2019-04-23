@@ -1,7 +1,7 @@
 <?php
 	require_once('header.php');
 ?>
-<main>	
+<main class="index">	
 	<section class="session">
 		<div class="container">
 			<div class="row default-session">
@@ -11,15 +11,15 @@
 				</div><!-- col-sm-12-->
 				<div class="col-sm-2"></div>
 				<div class="col-sm-8 video">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/LXO-7JbXoJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/ll-T1ZKAEFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 				<div class="col-sm-2"></div>
 				<div class="col-sm-12 actions">
-					<a href="#"><button type="button" class="btn btn-lg btn-whatsapp">Entrar no grupo do Whatsapp</button></a>
+					<a href="http://bit.ly/GABRIELLEVIERO" target="_blank"><button type="button" class="btn btn-lg btn-whatsapp">Entrar no grupo do Whatsapp</button></a>
 
-					<a href="#"><button type="button" class="btn btn-lg btn-register">Cadastrar na Sócio Tasking</button></a>
+					<a href="https://sociotasking.com/?invite=gabrielle"><button type="button" class="btn btn-lg btn-register">Cadastrar na Sócio Tasking</button></a>
 
-					<a href="#"><button type="button" class="btn btn-lg btn-web">Assistir Webinar às 20h</button></a>
+					<a href="https://sociotasking.com/aovivo?invite=gabrielle"><button type="button" class="btn btn-lg btn-web">Assistir Webinar às 20h</button></a>
 				</div><!-- col-sm-12-->
 			</div>
 		</div><!-- container -->		
@@ -37,8 +37,8 @@
 					
 
 					<p class="social">Me acompanhe nas redes sociais</p>
-					<p><a href=""><i class="fab fa-facebook-square fa-2x"></i></a>	
-					<a href=""><i class="fab fa-instagram fa-2x"></i></a>	
+					<p><a href="https://www.facebook.com/Gabi.Viero" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>	
+					<a href="https://www.instagram.com/gabi_viero/?hl=pt-br" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>	
 
 					<a href=""><button type="button" class="btn btn-lg btn-register" style="float: right;"><i class="fas fa-user-alt"></i> Ver perfil completo de Gabrielle</button></a></p>
 				</div>
